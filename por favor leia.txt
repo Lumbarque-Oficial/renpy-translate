@@ -1,0 +1,36 @@
+como funciona?
+
+
+ALGUNS PRE-REQUISITOS:
+
+>>> instale o node em https://nodejs.org/
+
+>>> instale o python ( é nescessário caso queira traduzir ) 
+em https://www.python.org/downloads/
+
+DEPOIS DE INSTALADO FAÇA O SEGUINTE:
+
+>>> vá até a pasta "src/" nesse projeto e no caminho da pasta apague tudo e digite "cmd"
+e tecle enter
+
+>>> com a linha de comando do windows aberta rode o comando "pip install googletrans"
+e espere ele fazer os downloads nescessários
+
+PRONTO, AQUI JÁ DEVERIA ESTAR TUDO CONFIGURADO, CASO ESTEJA COM PROBLEMAS NA INSTALAÇÃO
+ME AVISE:
+
+>>> coloque o script do renpy dentro do arquivo de texto chamado "renpy.txt"
+
+>>> para a primeira parde do programa rode o comando "node getRenpyData.js"
+( isso vai extrair todas as falas não traduzidas para um arquivo interno chamado
+"data-tranfer.pn", NÃO TOQUE! )
+
+>>> assumindo que as falas já foram extraidas do arquivo rode o comando 
+"python ingles.py"( caso o idioma do jogo seja em ingles) ou "python espanhol.py
+( caso queira traduzir do espanhol )
+
+>>> ultima parte do programa é o comando "node TranslatedData.js". vai ser criado no
+arquivo renpy2.txt tudo que você colocou em renpy.txt só que traduzido do idioma
+que você escolheu para pt-br.
+
+
